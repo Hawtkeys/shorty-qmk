@@ -6,8 +6,8 @@
     "diode_direction": "ROW2COL",
     "features": {
         "bootmagic": true,
-        "command": false,
-        "console": false,
+        "command": true,
+        "console": true,
         "extrakey": true,
         "mousekey": true,
         "nkro": true
@@ -19,15 +19,20 @@
         ]
     },
     "matrix_pins": {
+        "custom_lite":false,
         "cols":[
             "GP14",
             "GP13",
-            "GP12"
+            "GP12",
+            null,
+            null
         ],
         "rows":[
             "GP11",
             "GP10",
-            "GP9"
+            "GP9",
+            "GP29",
+            "GP2"
         ]
     },
     "processor": "RP2040",
@@ -47,10 +52,19 @@
                     {"matrix": [1, 0], "x": 0, "y": 1},
                     {"matrix": [1, 1], "x": 1, "y": 1},
                     {"matrix": [1, 2], "x": 2, "y": 1},
-
+ 
                     {"matrix": [2, 0], "x": 0, "y": 2},
                     {"matrix": [2, 1], "x": 1, "y": 2},
-                    {"matrix": [2, 2], "x": 2, "y": 2}
+                    {"matrix": [2, 2], "x": 2, "y": 2},
+
+                    {"matrix": [3, 0], "x": 0, "y": 3},
+                    {"matrix": [3, 1], "x": 1, "y": 3},
+                    {"matrix": [3, 2], "x": 2, "y": 3},
+
+                    {"matrix": [4, 0], "x": 0, "y": 4},
+                    {"matrix": [4, 1], "x": 1, "y": 4},
+                    {"matrix": [4, 2], "x": 2, "y": 4}
+
                 ]
         }
     }

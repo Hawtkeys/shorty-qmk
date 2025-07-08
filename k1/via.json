@@ -1,0 +1,33 @@
+{
+    "name": "Shorty K1",
+    "matrix": {
+        "rows": 4,
+        "cols": 1
+    },
+    "vendorId": "0x5453",
+    "productId": "0x6B31",
+    "layouts": {
+        "keymap": [
+            [
+                {
+                    "x": 0.6,
+                    "h":2,
+                    "w":2
+                },
+                
+                "3,0\n\n\n\n\n\n\n\n\ne0",
+                {
+                    "y":1.5
+                }
+            ],
+            [
+                "0,0",{"x":0.1},
+                "1,0",{"x":0.1},
+                "2,0"
+            ]
+        ]
+    },
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgblight"],
+    "lighting": "qmk_rgblight"
+}

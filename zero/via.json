@@ -1,8 +1,8 @@
 {
-    "name": "Shorty",
+    "name": "Shorty Zero",
     "matrix": {
         "rows": 5,
-        "cols": 5
+        "cols": 3
     },
     "vendorId": "0x5453",
     "productId": "0x5400",

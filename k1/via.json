@@ -28,6 +28,5 @@
         ]
     },
     "keycodes": ["qmk_lighting"],
-    "menus": ["qmk_rgblight"],
-    "lighting": "qmk_rgblight"
+    "menus": ["qmk_rgblight"]
 }
